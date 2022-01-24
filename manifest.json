@@ -1,0 +1,98 @@
+{
+    "name": "书炬 V1",
+    "short_name": "书炬",
+    "theme_color": "#99cc99",
+    "background_color": "#424242",
+    "display": "standalone",
+    "scope": "./",
+    "start_url": "/?source=pwa",
+    "related_applications": [
+      {
+        "platform": "webapp",
+        "url": "https://book.hehu.fun/manifest.json"
+      }
+    ],
+    "icons": [
+      {
+        "src": "/img/logo.svg",
+        "type": "image/svg+xml",
+        "sizes": "512x512"
+      },
+      {
+        "src": "img/icons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "img/icons/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "img/icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "img/icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "img/icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "img/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "img/icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "img/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "description": "Weather forecast information",
+
+    "shortcuts": [
+      {
+        "name": "利用地化数据",
+        "short_name": "书炬1",
+        "description": "未完善",
+        "url": "/1?source=pwa",
+        "icons": [{ "src": "/img/1.jpg", "sizes": "192x192" }]
+      },
+      {
+        "name": "利用地化数据2",
+        "short_name": "书炬2",
+        "description": "View weather information for tomorrow",
+        "url": "/2?source=pwa",
+        "icons": [{ "src": "/img/2.jpg", "sizes": "192x192" }]
+      }
+    ],
+
+
+    "screenshots": [
+      {
+        "src": "/img/1.jpg",
+        "type": "image/png",
+        "sizes": "540x720"
+      },
+      {
+        "src": "/img/2.jpg",
+        "type": "image/jpg",
+        "sizes": "540x720"
+      }
+    ]
+
+
+
+
+  }

@@ -59,21 +59,28 @@
         "type": "image/png"
       }
     ],
-    "description": "Weather forecast information",
+    "description": "好好看书",
 
     "shortcuts": [
       {
-        "name": "利用地化数据",
-        "short_name": "书炬1",
-        "description": "未完善",
-        "url": "/1?source=pwa",
+        "name": "书籍-首页",
+        "short_name": "书炬-首页",
+        "description": "网站介绍",
+        "url": "/?source=pwa",
+        "icons": [{ "src": "/img/logo.svg", "sizes": "192x192" }]
+      },
+      {
+        "name": "书籍-利用地化数据",
+        "short_name": "书炬-书籍",
+        "description": "利用地化数据",
+        "url": "/docs/intro?source=pwa",
         "icons": [{ "src": "/img/1.jpg", "sizes": "192x192" }]
       },
       {
-        "name": "利用地化数据2",
-        "short_name": "书炬2",
-        "description": "View weather information for tomorrow",
-        "url": "/2?source=pwa",
+        "name": "网页博客",
+        "short_name": "书炬-博客",
+        "description": "查看更新博客",
+        "url": "/blog?source=pwa",
         "icons": [{ "src": "/img/2.jpg", "sizes": "192x192" }]
       }
     ],
@@ -91,8 +98,4 @@
         "sizes": "540x720"
       }
     ]
-
-
-
-
   }
